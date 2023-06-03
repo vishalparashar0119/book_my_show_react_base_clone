@@ -1,0 +1,14 @@
+.main__poster{
+    border: 2px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card
+{
+    border: 2px solid red;
+    height: 40vh;
+    width:200px;
+    border-radius: 10px;
+    ;
+}

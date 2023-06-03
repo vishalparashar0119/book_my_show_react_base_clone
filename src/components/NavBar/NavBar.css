@@ -1,0 +1,141 @@
+/* first div of nav bar which contain img and div portion*/
+.main__div1{
+ background-color: rgb(51, 53, 65) !important;
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ height: 9vh;
+}
+
+.image__imput {
+        display: flex;
+        align-items: center !important;
+        gap: 20px;
+        width: 70%;
+        padding-left: 30px;
+
+        
+   }
+.input__section{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    height: 35px;
+    border-radius: 6px;
+    padding-left: 5px;  
+} 
+.input__section input{
+    background-color: transparent;
+    border: 0px solid !important;
+    width: 100%;
+    outline: none;
+    height: 100%;
+}  
+.place__section{
+    display: flex;
+    padding-right: 10px;
+    width: 20%;
+    align-items: center;
+    gap: 20px;
+    color: rgb(204, 204, 204);
+}
+.place__section button{
+ height: 30px;
+ width: 35%;
+ background-color: rgb(248, 68, 100);
+ border-radius: 5px;
+}
+.jaipur{
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+
+/* section 2nd*/
+.main__div2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 37, 57) !important;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 5px;
+    height: 6vh;
+}
+.main__div2__section1{
+    display: flex;
+    font-size: 16px;
+    
+    gap: 10px;
+    width: 60%;
+    align-items: center;
+    padding-left: 20px;
+    color: rgb(204, 204, 204);
+
+}
+.main__div2__section2{
+    width: 30% !important;
+}
+sup {
+    color: rgb(248, 68, 100);
+}
+/* nav for  medium screen*/
+
+.navmd{
+    display: flex;
+    width: 100%;
+    background-color: rgb(51, 53, 65);
+    justify-content: space-between;
+    height: 12vh;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+.md__place{
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      padding-left: 30px;
+}
+.md__place h1{
+    font-size: 25px;
+}
+.md__place div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.md__place div h4{
+    font-size: 12px;
+    color: rgb(204, 204, 204);
+
+}
+.md__search__button{
+    display: flex;
+    padding-right:30px;
+    gap: 15px;
+    align-items: center;
+   
+}
+.md__search__button button{
+height: 30px;
+ width: auto;
+ padding: 3px;
+ background-color: rgb(248, 68, 100);
+ border-radius: 5px;
+}
+.search__icon{
+    font-size: 30px;
+    font-weight: 100;
+}
+/* botton section*/
+.botton__section{
+    border:  1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+}
