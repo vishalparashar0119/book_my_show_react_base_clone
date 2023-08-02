@@ -9,7 +9,7 @@ const Payment = ({setIsOpen , isOpen , isPrice}) => {
     const LaunchRazorpay = () =>{
        let options = {
         // on which account to transfer money
-        key: "rzp_test_BGmCKg4IsTY0Kp",
+        key: "rzp_test_fvbut35rAELaE5",
         // price will be concider into pesa so to conver it into rupees we have to
         // multiply with 100;
         amount: isPrice * 100,
