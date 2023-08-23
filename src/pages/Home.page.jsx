@@ -18,6 +18,7 @@ const HomePage = () => {
   const [onlineStreamShow, setOnlineStreamShow] = useState([]);
 
   useEffect(()=>{
+    
     const requestTopRatedMovies = async ()=>{
 
       const getTopRatedMovies = await axios.get('/movie/popular');
