@@ -15,7 +15,7 @@ const HomePage = () => {
   // use state for storing movies , primiers , online-stream-show
   const [recomendedMovies, setRecomandedMovies] = useState([]);
   const [premierMovies, setPremierMovies] = useState([]);
-  const [onlineStreamShow, setOnlineStreamShow] = useState([]);
+  
 
   useEffect(()=>{
     
