@@ -4,7 +4,7 @@ import React, { createContext, useState } from 'react'
 export const movieContext = createContext();
 
 const MovieProvider = ({children}) => {
-  const [movie, setMovie] = useState([]);
+  const [movie , setMovie] = useState([]);
 
   const [open , setOpen] = useState(false);
  const [price , setPrice] = useState(0);
